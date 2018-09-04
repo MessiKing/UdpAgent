@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<share>
+		<log>
+			<logcfgfile>./conf.d/log.conf</logcfgfile>
+		</log>
+	</share>
+	<single program="UdpAgent" pid="5">
+		<server>
+			<ip>127.0.0.1</ip>
+			<port>9797</port>
+		</server>
+		<listenport>9999</listenport>
+		<threadcount>5</threadcount>
+	</single>
+</config>
+
+
+
